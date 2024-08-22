@@ -197,7 +197,7 @@ nav{
     filter:brightness(90%);
 }
 .gallery_images_wrapper img:nth-child(2){
-    height:41rem;
+    height:41.1rem;
 }
 .gallery_info_card_container .info_card{
     background-color: var(--theme_color);
