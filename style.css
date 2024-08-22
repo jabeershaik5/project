@@ -178,7 +178,7 @@ nav{
 }
 .gallery_images_wrapper .gallery{
     display: grid;
-    grid-template-rows: 20rem auto;
+    grid-template-rows: 19rem auto;
     grid-template-columns: repeat(2,1fr);
     gap:2rem;
     
