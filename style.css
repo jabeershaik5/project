@@ -277,7 +277,8 @@ nav{
     nav{
         height:7rem;
         top:0;
-        z-index:1000;   
+        z-index:1000;
+        position: fixed;   
     }
     .font_sizer{
         font-size: calc(var(--font-size) + 4px);
@@ -287,7 +288,7 @@ nav{
         font-size: 3rem;
     }
     .dropdown_list{
-        position: absolute;
+        position: fixed;
         flex-direction: column;
         width:100%;
         align-items: end;  
@@ -300,7 +301,7 @@ nav{
         overflow: hidden;
     }
     .active{
-        max-height:42rem;
+        max-height:45rem;
     }
     .dropdown_list li{
         margin:2rem 0rem;
