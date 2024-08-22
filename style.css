@@ -90,7 +90,7 @@ nav{
 }
 .landing_image img{
     height:100%;
-    max-width:100%;
+    width:100%;
     object-fit: cover;
 }
 .landing_page_container{
@@ -244,6 +244,9 @@ nav{
     }
     .landing_content_container{
         align-items: center; 
+    }
+    .landing_image{
+       min-height: 100%;
     }
     .gallery_section_wrapper, .gallery_container{
         height:auto;
